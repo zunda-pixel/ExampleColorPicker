@@ -1,6 +1,6 @@
 Package: com.zunda.examplecolorpicker
 Name: ExampleColorPicker
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.spark.libsparkcolourpicker, com.creaturesurvive.libcscolorpicker #, ws.hbang.common
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.spark.libsparkcolourpicker, com.creaturesurvive.libcscolorpicker
 Version: 1.0.0
 Architecture: iphoneos-arm
 Description: Example ColorPicker!!
