@@ -2,6 +2,8 @@ ARCHS = arm64 arm64e
 export TARGET = iphone:clang:12.1:8.0
 BUNDLE_NAME = ExampleColorPickerPreferences
 
+include $(THEOS)/makefiles/common.mk
+
 $(BUNDLE_NAME)_FILES = $(wildcard *.m)
 $(BUNDLE_NAME)_INSTALL_PATH = /Library/PreferenceBundles
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit
@@ -11,7 +13,6 @@ $(BUNDLE_NAME)_LIBRARIES += sparkcolourpicker colorpicker
 $(BUNDLE_NAME)_LDFLAGS += -lCSColorPicker
 
 include $(THEOS_MAKE_PATH)/bundle.mk
-include $(THEOS)/makefiles/common.mk
 
 internal-stage::
 	$(ECHO_NOTHING)mkdir -p $(THEOS_STAGING_DIR)/Library/PreferenceLoader/Preferences$(ECHO_END)
