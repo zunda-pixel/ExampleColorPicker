@@ -1,6 +1,6 @@
-#import <CepheiPrefs/HBRootListController.h>
+//#import <CepheiPrefs/HBRootListController.h>
 #import <Preferences/PSListController.h>
 
-@interface ECPRootListController : HBRootListController
+@interface ECPRootListController : PSRootListController
 @end
 
