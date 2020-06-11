@@ -3,7 +3,7 @@ include $(THEOS)/makefiles/common.mk
 
 ARCHS = arm64 arm64e
 
-BUNDLE_NAME = TestColorPickerPreferences
+BUNDLE_NAME = ExampleColorPickerPreferences
 
 $(BUNDLE_NAME)_FILES = $(wildcard *.m)
 $(BUNDLE_NAME)_INSTALL_PATH = /Library/PreferenceBundles

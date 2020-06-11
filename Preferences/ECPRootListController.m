@@ -1,9 +1,9 @@
-#include "TCPRootListController.h"
+#include "ECPRootListController.h"
 #import <Preferences/PSSpecifier.h>
 #import <Cephei/HBPreferences.h>
 #import <Cephei/HBRespringController.h>
 
-@implementation TCPRootListController
+@implementation ECPRootListController
 
 - (NSArray *)specifiers {
 	if (!_specifiers) {
@@ -13,7 +13,4 @@
 	return _specifiers;
 }
 
-- (void)respring {
-	[HBRespringController respring];
-}
 @end

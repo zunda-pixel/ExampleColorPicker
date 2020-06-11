@@ -5,24 +5,6 @@
 	<key>items</key>
 	<array>
 		<dict>
-			<key>cellClass</key>
-			<string>HBTwitterCell</string>
-			<key>label</key>
-			<string>zunda</string>
-			<key>user</key>
-			<string>zunda_pixel</string>
-		</dict>
-		<dict>
-			<key>action</key>
-			<string>respring</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>cellClass</key>
-			<string>HBTintedTableCell</string>
-			<key>label</key>
-			<string>RESPRING</string>
-		</dict>
-		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -36,7 +18,7 @@
 			<key>libcolorpicker</key>
 			<dict>
 				<key>defaults</key>
-				<string>com.zunda.testcolorpicker</string>
+				<string>com.zunda.examplecolorpicker</string>
 				<key>key</key>
 				<string>favoriteColor</string>
 				<key>fallback</key>
@@ -61,7 +43,7 @@
 			<key>label</key>
 			<string>Color</string>
 			<key>color_defaults</key>
-			<string>com.zunda.testcolorpicker</string>
+			<string>com.zunda.examplecolorpicker</string>
 			<key>color_key</key>
 			<string>aColor</string>
 			<key>title</key>
@@ -73,7 +55,7 @@
 			<key>usesAlpha</key>
 			<true/>
 			<key>color_postNotification</key>
-			<string>com.zunda.testcolorpicker</string>
+			<string>com.zunda.examplecolorpicker</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -89,7 +71,7 @@
 			<key>libsparkcolourpicker</key>
 			<dict>
 				<key>defaults</key>
-				<string>com.zunda.testcolorpicker</string>
+				<string>com.zunda.examplecolorpicker</string>
 				<key>key</key>
 				<string>color</string>
 				<key>fallback</key>
@@ -102,7 +84,7 @@
 			<key>key</key>
 			<string>color</string>
 			<key>PostNotification</key>
-			<string>com.zunda.testcolorpicker/ReloadPrefs</string>
+			<string>com.zunda.examplecolorpicker/ReloadPrefs</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -122,21 +104,21 @@
 			<key>alpha</key>
 			<true/>
 			<key>defaults</key>
-			<string>com.zunda.testcolorpicker</string>
+			<string>com.zunda.examplecolorpicker</string>
 			<key>key</key>
 			<string>primaryColor</string>
 			<key>PostNotification</key>
-			<string>com.zunda.testcolorpicker/ReloadPrefs</string>
+			<string>com.zunda.examplecolorpicker/ReloadPrefs</string>
 		</dict>
 		<dict>
 				<key>PostNotification</key>
-				<string>com.zunda.testcolorpicker/ReloadPrefs</string> 
+				<string>com.zunda.examplecolorpicker/ReloadPrefs</string> 
 				<key>cell</key>
 				<string>PSLinkCell</string>
 				<key>cellClass</key>
 				<string>CSColorDisplayCell</string>
 				<key>defaults</key>
-				<string>com.zunda.testcolorpicker</string>
+				<string>com.zunda.examplecolorpicker</string>
 				<key>defaultsPath</key>
 				<string>/Library/PreferenceBundles/TestColorPickerPreferences.bundle</string>
 				<key>key</key>

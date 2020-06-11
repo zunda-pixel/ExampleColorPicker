@@ -1,9 +1,9 @@
-Package: com.zunda.testcolorpicker
-Name: TestColorPicker
+Package: com.zunda.examplecolorpicker
+Name: ExampleColorPicker
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader, org.thebigboss.libcolorpicker, com.spark.libsparkcolourpicker
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Test ColorPicker!!
+Description: Example ColorPicker!!
 Maintainer: zunda <zunda.pixel@gmail.com>
 Author: zunda <zunda.pixel@gmail.com>
 Section: Tweaks
