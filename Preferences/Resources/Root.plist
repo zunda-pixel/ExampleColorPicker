@@ -77,7 +77,7 @@
 				<key>fallback</key>
 				<string>#147efb</string>
 				<key>alpha</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>label</key>
 			<string>Color</string>
