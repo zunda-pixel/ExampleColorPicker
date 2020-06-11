@@ -1,5 +1,5 @@
 ARCHS = arm64 arm64e
-TARGET = Iphone:clang:13.0:latest
+TARGET = Iphone:clang:12.0:latest
 BUNDLE_NAME = ExampleColorPickerPreferences
 
 include $(THEOS)/makefiles/common.mk
