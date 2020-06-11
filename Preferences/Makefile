@@ -2,8 +2,6 @@ ARCHS = arm64 arm64e
 export TARGET = iphone:clang:12.1:8.0
 BUNDLE_NAME = ExampleColorPickerPreferences
 
-
-
 $(BUNDLE_NAME)_FILES = $(wildcard *.m)
 $(BUNDLE_NAME)_INSTALL_PATH = /Library/PreferenceBundles
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit
