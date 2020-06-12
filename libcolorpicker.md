@@ -16,6 +16,7 @@ $(BUNDLE_NAME)_LIBRARIES +=  colorpicker
 
 ### Root.plist
 PFSimpleLiteColorCell
+```
 <dict>
 	<key>cell</key>
 	<string>PSLinkCell</string>
@@ -58,3 +59,4 @@ PFColorCell
 	<key>color_postNotification</key>
 	<string>com.zunda.examplecolorpicker</string>
 </dict>
+```
