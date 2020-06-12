@@ -13,9 +13,13 @@ Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Makefileにcolorpickerを追加
 
 $(BUNDLE_NAME)_LIBRARIES +=  colorpicker
+### 壊れている
+PFColorCellの方は現在壊れているのでつかはない方がいいと思います。
+グラデーション部分をさわると設定.appが落ちてしまいます。
+＃ボタンを押すと設定.appが落ちてしまいます。
 
 ### Root.plist
-PFSimpleLiteColorCell
+#### PFSimpleLiteColorCell
 ```
 <dict>
 	<key>cell</key>
@@ -36,7 +40,10 @@ PFSimpleLiteColorCell
 	<key>label</key>
 	<string>Color</string>
 </dict>
-PFColorCell
+```
+#### PFColorCell
+
+```
 <dict>
 	<key>cell</key>
 	<string>PSLinkCell</string>
